@@ -30,3 +30,24 @@
   - 모든 버전 기록이 영구적으로 저장되는 곳 ! & `최종 버전 기록` 장소
 ---
 4. `commit` :  버전 
+
+## 활용하기 
+- `git init` : 깃 관리 선언 
+- `git add 00_startcamp/01_git/markdown.md` : Staging Area에 넣음 
+- `git commit -m "마크다운 연습"` : 저장하기 
+- `git status` : 관리 상황 확인 
+- 버전이 바뀌면(내용이 바뀌면) 계속해서 `Repository`에 등록을 해줘야 한다. 
+  - `Repository`에 등록되어 있는데 버전이 바뀌면 수정 하라는 코드가 나옴  
+- `git log` : 버전 정보 확인가능 
+
+### 레퍼지토리 -> 버전 등록 방법 
+1. `git add 00_startcamp/01_git/markdown.md` : 레퍼지토리 등록
+2. `git commit -m "마크다운 연습"` : 커밋(버전 등록) 
+
+### 버전 생성에서 계정 입력
+- git config --global user.email "you@example.com"
+- git config --global user.name "Your Name"
+- 수정하기: code ~/.gitconfig
+
+### vs 상에서 확인하기 
+- 소스 
