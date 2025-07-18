@@ -36,7 +36,7 @@ class DinnerMenuGUI(QWidget):
         self.avoid_input = QLineEdit()
         layout.addWidget(self.avoid_input)
 
-        layout.addWidget(QLabel("영양성분 조건 (숫자값 입력, 예: calorie(kcal)<=300, protein(g)>=15):"))
+        layout.addWidget(QLabel("4 (숫자값 입력, 예: calorie(kcal)<=300, protein(g)>=15):"))
         self.nutrition_input = QLineEdit()
         layout.addWidget(self.nutrition_input)
 
