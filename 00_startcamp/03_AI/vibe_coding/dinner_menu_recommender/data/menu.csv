@@ -1,0 +1,5 @@
+name,ingredients,spicy
+김치찌개,"김치, 돼지고기, 두부",True
+된장찌개,"된장, 두부, 야채",False
+불고기,"소고기, 양파, 간장",False
+비빔밥,"밥, 야채, 고추장",True
