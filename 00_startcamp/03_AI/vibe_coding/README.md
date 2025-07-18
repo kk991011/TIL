@@ -44,9 +44,26 @@
    - AI 추천(사용자 피드백 반영)
    - 패키징 및 배포
 
-## 개발 환경 및 권장 사항
-- Python 3.8 이상
-- 필수 패키지: pandas, PyQt5(선택), Flask(선택)
+
+## 개발 환경 및 필수 라이브러리
+- Python 3.8 이상 권장 (3.8~3.11 호환)
+- OS: Windows, macOS, Linux 지원
+- 필수 라이브러리:
+    - pandas
+    - PyQt5 (GUI 실행 시)
+    - Flask (웹앱 실행 시)
+    - requests (날씨 API 등 확장 시)
+- 설치 명령어(최소 환경):
+```bash
+pip install pandas pyqt5 requests
+# 웹앱 사용 시
+pip install flask
+```
+- 데이터 파일: `data/menu.csv`, `data/recipe.csv` 반드시 존재해야 함
+- 실행 방법:
+    - GUI: `python gui/main_gui.py`
+    - CLI: `python main.py`
+    - 테스트: `python -m unittest discover tests`
 - 코드 스타일: PEP8, 주석 및 문서화 철저
 
 ---
