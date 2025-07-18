@@ -1,5 +1,5 @@
-name,ingredients,spicy
-김치찌개,"김치, 돼지고기, 두부",True
-된장찌개,"된장, 두부, 야채",False
-불고기,"소고기, 양파, 간장",False
-비빔밥,"밥, 야채, 고추장",True
+name,ingredients,spicy,carbohydrate(g),protein(g),fat(g),calorie(kcal)
+김치찌개,"김치, 돼지고기, 두부",True,15,18,12,250
+된장찌개,"된장, 두부, 야채",False,10,10,8,180
+불고기,"소고기, 양파, 간장",False,8,20,15,300
+비빔밥,"밥, 야채, 고추장",True,60,12,7,400
